@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="index.css" /> -->
+
+    <style>
+
+
+
+#back{
+    width: 300px;
+    height: 300px;
+    border: 20px solid black;
+    border-radius: 200px;
+}
+
+#iner1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#iner2{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#iner3{
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#iner4{
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-color: black;
+}
+#iner5{
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-color: rgb(0, 0, 0);
+}
+
+#hor1{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(90deg);
+    margin-top: -280px; 
+    margin-left: 115px;
+}
+
+#hor2{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(110deg);
+    margin-top: -10px; 
+    margin-left: 145px;
+}
+
+#hor3{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(70deg);
+    margin-top: -15px; 
+    margin-left: 85px;
+}
+
+#hor4{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(50deg);
+    margin-top: 15px; 
+    margin-left: 55px;
+}
+
+#hor5{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(130deg);
+    margin-top: -20px; 
+    margin-left: 175px;
+}
+
+#hor6{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(30deg);
+    margin-top: 25px; 
+    margin-left: 32px;
+}
+
+#hor7{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(10deg);
+    margin-top: 25px; 
+    margin-left: 22px;
+}
+
+#hor8{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(150deg);
+    margin-top: -50px; 
+    margin-left: 195px;
+}
+
+#hor9{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(170deg);
+    margin-top: 20px; 
+    margin-left: 215px;
+}
+
+#hor10{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-10deg);
+    margin-top: 40px; 
+    margin-left: 17px;
+}
+
+#hor11{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-30deg);
+    margin-top: 30px; 
+    margin-left: 25px;
+}
+
+#hor12{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-50deg);
+    margin-top: 28px; 
+    margin-left: 45px;
+
+}
+
+#hor13{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-70deg);
+    margin-top: 17px; 
+    margin-left: 75px;
+}
+
+#hor14{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-90deg);
+    margin-top: -3px; 
+    margin-left: 115px;
+}
+
+#hor15{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-110deg);
+    margin-top: -20px; 
+    margin-left: 155px;
+}
+
+#hor16{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-130deg);
+    margin-top: -43px; 
+    margin-left: 195px;
+}
+
+#hor17{
+    width: 105px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transform: rotate(-150deg);
+    margin-top: -53px; 
+    margin-left: 215px;
+}
+
+#bladeout{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: -310px;
+    margin-left: 120px;
+}
+
+#blade1{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: rotate(90deg);
+    margin-top: -100px;
+    position: relative;
+    z-index: -1;
+}
+
+#blade2{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: rotate(150deg);
+    margin-top: -20px;
+    margin-left: 70px;
+    position: relative;
+    z-index: -1;
+}
+
+#blade3{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: rotate(210deg);
+    margin-top: 25px;
+    margin-left: 70px;
+    position: relative;
+    z-index: -1;
+}
+
+#blade4{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: rotate(270deg);
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    z-index: -1;
+}
+
+#blade5{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: rotate(330deg);
+    margin-top: -65px;
+    margin-left: -55px;
+    position: relative;
+    z-index: -1;
+}
+
+#blade6{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 182, 182);
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    transform: rotate(390deg);
+    margin-top: -130px;
+    margin-left: -75px;
+    position: relative;
+    z-index: -1;
+}
+
+h1{
+    color: white;
+    margin-top: -95px;
+    font-size: 20px;
+    margin-left: 130px;
+    font-weight: bolder;
+}
+
+#standtop{
+    width: 20px;
+    height: 300px;
+    background-color: rgb(59, 57, 57);
+    margin-left: 160px;
+    margin-top: -20px;
+    position: relative;
+    z-index: -1;
+}
+
+#middle{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-top: -20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+#standdown{
+    width: 30px;
+    height: 300px;
+    background-color: black;
+    margin-left: 155px;
+    margin-top: -20px;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+#down{
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid rgb(48, 10, 10); */
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 65px;
+    margin-top: -100px;
+    position: relative;
+    z-index: -1;
+    transform: rotateX(300deg);
+
+}
+#bladeout{
+    /* animation: move 5s infinite linear; */
+    position: relative;
+    z-index: -1;
+}
+
+@keyframes move{
+    100%{transform:rotate(360deg);}
+}
+
+
+#radio{
+    visibility: hidden;
+}
+
+#state{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+
+button{
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    margin: 5px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 2px;
+}
+button:hover{
+    color: blue;
+    background-color: white;
+}
+
+#on{
+    background-color: chartreuse;
+
+}
+
+#on:hover{
+    background-color: white;
+    color: chartreuse;;
+}
+
+#of{
+    background-color: red;
+    
+}
+
+#of:hover{
+    background-color: white;
+    color:red;
+}
+
+#buttons{
+    background-color: #ff00dd;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:952px){
+    #buttons{
+        width: 600px;
+    }
+}
+
+#blade1,#blade2,#blade3,#blade4,#blade5,#blade6,#blade7{
+        background-color: red;
+}
+
+    </style>
+    <!-- <script src="main.js"></script> -->
+
+</head>
+<body>
+        <div id="buttons">
+        <input type="radio" id="radio"><button onclick="onn();" id="on">ONN</button>
+        <br>
+  <button onclick="one();" >ONE</button>
+<button onclick="two();">TWO</button>
+<br>   
+<button onclick="three();">THREE</button>
+<button onclick="four();">FOUR</button>
+<br>
+    <button onclick="return off();" id="of">OFF</button>
+    
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="back">
+        <div id="iner1">
+                <div id="iner2">
+                        <div id="iner3">
+                                <div id="iner4">
+                                        <div id="iner5"></div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+    <hr id="hor1">
+    <hr id="hor2">
+    <hr id="hor3">
+    <hr id="hor4">
+    <hr id="hor5">
+    <hr id="hor6">
+    <hr id="hor7">
+    <hr id="hor8">
+    <hr id="hor9">
+    <hr id="hor10">
+    <hr id="hor11">
+    <hr id="hor12">
+    <hr id="hor13">
+    <hr id="hor14">
+    <hr id="hor15">
+    <hr id="hor16">
+    <hr id="hor17">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="bladeout">
+            <br>
+            <br>
+        
+            <div id="blade1"></div>
+            <div id="blade2"></div>
+            <div id="blade3"></div>
+            <div id="blade4"></div>
+            <div id="blade5"></div>
+            <div id="blade6"></div>
+            <div id="blade7"></div>
+            
+    </div>
+    <br>
+
+    <h1>DELRON</h1>
+    <br>
+    <br>
+    <h1 id="state">OFF</h1>
+    
+
+    <div id="standtop"></div>
+    <div id="middle"></div>
+    <div id="standdown"></div>
+    <div id="down"></div>
+
+    
+    <script>
+            var mycheck=document.getElementById('radio');
+            var state=document.getElementById('state');
+            function onn(){        
+        mycheck.checked=true;
+                // document.getElementById('iner5').style.backgroundColor="red";
+        document.getElementById('bladeout').style.animation="move 5.0s infinite linear";
+        
+        state.innerHTML="ON";
+        state.style.color="lime";
+        state.style.marginLeft="150px";
+            }
+
+            function one(){
+                    if(mycheck.checked==true){
+                        state.innerHTML="L1";
+                        document.getElementById('bladeout').style.animation="move 2.0s infinite linear";
+                    }
+                   else{
+                           alert("PLEASE SWITCH ONN THE FAN");
+                   }                   
+            }
+
+            function two(){
+                if(mycheck.checked==true){
+                        state.innerHTML="L2";
+                    document.getElementById('bladeout').style.animation="move 1.5s infinite linear";
+            }
+            
+            else{
+                           alert("PLEASE SWITCH ONN THE FAN");
+                   } 
+        }
+
+            function three(){
+                if(mycheck.checked==true){
+                        state.innerHTML="L3";
+                    document.getElementById('bladeout').style.animation="move 1.0s infinite linear";
+            }
+            
+            else{
+                           alert("PLEASE SWITCH ONN THE FAN");
+                   }          
+                   }
+
+            function four(){
+                if(mycheck.checked==true){
+                        state.innerHTML="L4";
+                    document.getElementById('bladeout').style.animation="move 0.5s infinite linear";
+            }
+            
+            else{
+                           alert("PLEASE SWITCH ONN THE FAN");
+                   }   
+                          }
+
+
+          function off(){
+                  if(mycheck.checked==true){                     
+                   state.style.color="red";
+                    state.style.marginLeft="140px";
+                    mycheck.checked=false;
+                    state.innerHTML="OFF";
+                    document.getElementById('bladeout').style.animation="move 5.0s  linear";
+
+            }
+            
+            else{
+                           alert("PLEASE SWITCH ONN THE FAN");
+                   } 
+                          }
+    </script>
+    
+</body>
+</html>
